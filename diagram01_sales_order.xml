@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="7Mtrl5ACNRfj0yzKoVwS">
+    <mxGraphModel dx="894" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start" parent="1" style="shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;symbol=general;outline=standard;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="80" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="t1" parent="1" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" value="Take the customer order" vertex="1">
+          <mxGeometry height="80" width="140" x="190" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="t2" parent="1" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" value="Run the credit check" vertex="1">
+          <mxGeometry height="80" width="140" x="390" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="t3" parent="1" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" value="Record the sale" vertex="1">
+          <mxGeometry height="80" width="140" x="590" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="end" parent="1" style="shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;symbol=general;outline=end;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="790" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="start" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;rounded=0;" target="t1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="t1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;rounded=0;" target="t2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="t2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;rounded=0;" target="t3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="t3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;rounded=0;" target="end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
